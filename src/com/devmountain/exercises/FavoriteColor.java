@@ -67,7 +67,9 @@ public class FavoriteColor {
         /*
         Let's look at some conditional logic! if-else statements inside of Java function similarly to JavaScript
         Since Java is a strongly typed language, it negates the need for the triple-equals sign '===' from JS.
-        Java uses a single equals '=' to assign a value and a double equals '==' to see if two things are the same.
+        Java uses a single equals '=' to assign a value and a double equals '==' to see if two things are in the same
+        place in memory. To see if two objects have the same value you need to use the ".equals()" method available to
+        objects in Java.
         All other comparators are similar such as '<' and '<=' as well as '>' and '>='
          */
 
